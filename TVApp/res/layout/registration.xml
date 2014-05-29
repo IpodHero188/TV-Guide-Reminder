@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Login Page"
+            android:id="@+id/logintextView" android:layout_weight="0.20" android:textIsSelectable="false"
+            android:textSize="30dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/loginPrompt"
+            android:id="@+id/loginPrompttextView" android:layout_weight="0.15"
+            android:textSize="30sp"/>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+            android:layout_weight="0.20">
+    <RadioButton
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Localprofile"
+            android:id="@+id/LocalradioButton" android:layout_weight="0.14" android:checked="true"
+            android:textSize="20sp" android:paddingLeft="20dp" android:clickable="true" android:enabled="true"
+            android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FollowShowReadioButton" android:layout_weight="0.14" android:enabled="true" android:clickable="true"
+            android:checked="false" android:paddingLeft="20dp" android:text="Access FollowShow Account"
+            android:textSize="20sp"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+</LinearLayout>

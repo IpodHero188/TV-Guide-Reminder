@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TVApp</string>
+    <string name="Localprofile">Create new profile</string>
+    <string name="loginPrompt">No profile could be retrieved. Please select one of the options below</string>
+    <string name="confirm">OK</string>
+</resources>
